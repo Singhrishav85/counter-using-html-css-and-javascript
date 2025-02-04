@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.306);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.799);
+}
+
+#counter {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 70px;
+    color: rgba(0, 0, 255, 0.616);
+}
+
+#main_number {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#number {
+    height: 75px;
+    width: 75px;
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-weight: 600;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 25px;
+    justify-content: space-evenly;
+}
+
+.btn {
+    /* height: 50px;
+    width: 100px; */
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+    /* display: flex; */
+    /* margin-right: 20px;
+    margin-left: 20px; */
+    padding: 10px;
+    /* justify-content: space-evenly; */
+    background-color: rgba(0, 0, 0, 0.799);
+    color: white;
+}
+
+#decrease {
+    margin-left: 20px;
+}
+
+#increase {
+    margin-right: 20px;
+}
+
+button:hover {
+    border: 2px solid green;
+    color: red;
+    cursor: pointer;
+}
