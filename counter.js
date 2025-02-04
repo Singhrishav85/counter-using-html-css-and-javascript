@@ -28,16 +28,3 @@ function decr() {
     }
   }
 }
-
-function stop()
-{
-    let number=document.getElementById("number");
-    // let s=number.innerText;
-    // let r=parseInt(s);
-    // // number.innerText=
-    // // console.log(number.innerText);
-    // // console.log(s);
-    // number.innerText=r;
-    // // console.log(r);
-    number.innerText=number.innerText;
-}
